@@ -3,7 +3,7 @@ const createReactClass = require('create-react-class');
 const Canvas               = require('./Canvas');
 const ViewportScroll       = require('./ViewportScrollMixin');
 const cellMetaDataShape    = require('./PropTypeShapes/CellMetaDataShape');
-const PropTypes            = React.PropTypes;
+import PropTypes from 'prop-types';
 
 const Viewport = createReactClass({
   displayName: 'Viewport',
